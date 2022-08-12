@@ -1,0 +1,326 @@
+/*  */
+@media (min-width :200px)and (max-width :480px){
+	.TYPE1 h3{
+		font-size: 10px;
+	}	
+	.TYPE2 h3{
+		font-size: 10px;
+	}
+	.TYPE3 h3{
+		font-size: 10px;
+	}		
+	.TYPE3{
+		width: 100%;
+	}
+	.TYPE2{
+		width: 100%;
+	}
+	.TYPE1{
+		width: 100%;
+	}
+	.types{
+		flex-wrap: wrap;
+	}
+	.header{
+		height: 100vh;
+	}
+	.text h1{
+		font-size: 50px;
+	}
+	.text{
+		padding-top: 70% ;
+	}
+	.item{
+		width: 100%;
+	}
+	.items{
+		flex-wrap: wrap;
+	}
+	
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+	.sale{
+		width: 100%;
+		height: 65vh;
+		background-position: center;
+	}
+	.all-counters{
+		padding: 50px;
+	}
+	.black{
+		margin-left: .5px;
+	}
+	.counter{
+		width: 80px;
+		height: 80px;
+	}
+	.counter h2{
+		font-size: 15px;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+}
+@media (max-width : 450px){
+	.filter a{
+		font-size: 10px;
+		padding: 5px 5px;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+	
+	.all-counters{
+		padding: 50px;
+	}
+}
+@media (max-width : 750px){
+	.filter a{
+		padding: 10px 10px;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.all-counters{
+		padding: 50px;
+	}
+	
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+}
+@media (min-width :601px)and (max-width : 749px) {
+	.TYPE3{
+		width: 100%;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.TYPE2{
+		width: 100%;
+	}
+	.TYPE1{
+		width: 100%;
+	}
+	.types{
+		flex-wrap: wrap;
+	}
+	.header{
+		height: calc(100vw/ .7);
+	}
+	
+	.all-counters{
+		padding: 50px;
+	}
+	.text h1{
+		font-size: 50px;
+	}
+	.text{
+		padding-top: 70% ;
+	}
+	.item{
+		width: 50%;
+	}
+	.items{
+		flex-wrap: wrap;
+	}	
+	.sale{
+		width: 100%;
+		height: 60vh;
+	}
+	.black{
+		margin-left: 10%;
+	}
+	.counter{
+		width: 100px;
+		height: 100px;
+	}
+	.counter h2{
+		font-size: 25px;
+	}
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+}
+@media (min-width :481px)and (max-width :600px) {
+	
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.all-counters{
+		padding: 50px;
+	}
+.TYPE3{
+	width: 100%;
+}
+.TYPE2{
+	width: 100%;
+}
+.TYPE1{
+	width: 100%;
+}
+
+.header{
+	height: calc(100vw/ .6);
+}
+.types{
+	flex-wrap: wrap;
+}
+.text h1{
+	font-size: 50px;
+}
+.text{
+	padding-top: 70% ;
+}
+.item{
+	width: 100%;
+}
+.items{
+	flex-wrap: wrap;
+}
+.sale{
+	width: 100%;
+	height: 60vh;
+}
+.black{
+	margin-left: 20%;
+}	
+.counter{
+	padding-top: 2px;
+	width: 60px;
+	height: 60px;
+}
+.counter h2{
+	font-size: 20px;
+}
+}
+@media (min-width:750px) and (max-width :850px) {
+	.sale{
+		width: 100%;
+		height: 60px;
+	}
+	.black{
+		margin-left: 15%;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+	
+	.all-counters{
+		padding: 50px;
+	}
+}
+@media (min-width:851px) and (max-width :1050px) {
+	.sale{
+		width: 100%;
+	}
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}
+	.all-counters{
+		padding: 50px;
+	}
+	.black{
+		margin-left: 15%;
+	}
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+}
+@media (min-width:750px) and (max-width :1204px) {
+	.fainal{
+		flex-wrap: wrap;
+	}
+	.bg-img{
+		width: 100%;
+	}	
+	.header{
+		height: calc(100vw/ 1.112);
+		background-position: center bottom;
+	}
+	.text{
+		padding-top: 30% ;
+	}
+	
+	.all-counters{
+		padding: 50px;
+	}
+	.TYPE1{
+		height: 160px;
+	}
+	.TYPE1 h3{
+	font-size: 11px;
+	}
+	.TYPE2{
+		height: 160px;
+	}
+	.TYPE2 h3{
+		font-size: 11px;
+	}
+	.TYPE3{
+		height: 160px;
+	}
+	.TYPE3 h3{
+		font-size: 11px;
+	}
+	.types{
+		padding-top: 20px;
+	}
+	.item{
+		width: 30%;
+	}
+	.items{
+		flex-wrap: wrap;
+	}
+	.sale{
+		height: 45vh;
+	}
+	
+	.to-border{
+		border-top: rgb(137, 135, 141 ,.9) .5px solid;
+		border-right: none;
+	}
+}
+@media (min-width:1020px) and (max-width :1204px) {
+	.sale{
+		height: 80vh;
+	}
+}
